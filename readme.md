@@ -17,4 +17,4 @@ While not an AI Pathing project yet, this is used as a stepping stone.
 - Pathing Alogrithms
 - Beautify the UI
 
-View a live demo [here](#) hosted with Netlify.
+View a live demo [here](https://app.netlify.com/sites/sad-goldwasser-8eaf64/overview) hosted with Netlify.
