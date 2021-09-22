@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul,
+li {
+  list-style: none;
+  display: inline-block; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+body .header .navbar {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body .header .navbar a {
+    margin: 0 1rem; }
+  body .header .navbar .grid-layout {
+    background: #333;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: row; }
+    body .header .navbar .grid-layout label {
+      margin: 0.5rem;
+      text-align: center; }
+    body .header .navbar .grid-layout #change-btn {
+      outline: none;
+      color: black;
+      padding: 0.25rem;
+      background: coral; }
+  body .header .navbar #cords {
+    margin: 0.5rem; }
+  body .header .navbar #explode-btn {
+    padding: 1rem;
+    background-color: white;
+    border: black 2px solid;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: 20px; }
+    body .header .navbar #explode-btn:hover {
+      background-color: coral; }
+
+body .grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat; }
+  body .grid ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0.25rem; }
+  body .grid li {
+    width: 25px;
+    height: 25px;
+    background-color: #b19999;
+    margin: 0.25rem;
+    transition: 0.5s;
+    padding: 0.75rem; }
+    body .grid li:hover {
+      cursor: pointer;
+      background-color: coral; }
+  body .grid li.start-point {
+    border-radius: 5px; }
+  body .grid li.exploded {
+    background-color: darkred; }
+  body .grid li.wall {
+    background-color: dimgray;
+    border-radius: 20px; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center; }
